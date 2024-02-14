@@ -59,6 +59,12 @@ a {
     color: var(--main-bg-color)
 }
 
+.directionColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 /****** Header *******************************/
 header {
     display: flex;
@@ -96,6 +102,27 @@ nav ul li a {
 nav ul li:hover {
     color: var(--main-color);
     border-top: 2px solid var(--main-color);
+}
+
+.button {
+	margin: 20px 0px;
+	padding: 28px 40px;
+
+	/* background-color: white; */
+
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 50px;
+
+	box-sizing: border-box;
+
+    width: 150px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+    text-align: center;
 }
 
 /****** Infos *********************************/
@@ -242,16 +269,16 @@ nav ul li:hover {
     align-items: center;
 }
 
-.activities-cards .card {
+.activities-cards {
     display: flex;
-    margin-top: 33px;
+    /* margin-top: 33px; */
 }
 
 .activities-cards img {
     width: 33%;
     height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
 }
 
 .activities-cards .card-content {
@@ -263,7 +290,7 @@ nav ul li:hover {
     box-sizing: border-box;
 }
 
-.populaires-cards .card-title {
+.activities-cards .card-title {
     margin-top: 10px;
     margin-bottom: 4px;
 }
