@@ -59,7 +59,6 @@ a {
 }
 
 /****** Header *******************************/
-
 header {
     display: flex;
     justify-content: space-between;
@@ -99,7 +98,7 @@ nav ul li:hover {
     border-top: 2px solid var(--main-color);
 }
 
-/****** Hebergements And Populaires ***********/
+****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
