@@ -16,6 +16,9 @@
 body {
     display: flex;
     justify-content: center;
+    /* par défaut, la balise “body” comporte des marges */
+    margin: 0;
+    padding: 0;
 }
 
 .main-container {
@@ -88,6 +91,8 @@ nav {
 
 nav ul {
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -96,7 +101,8 @@ nav ul li {
 }
 
 nav ul li a {
-    padding-top: 15px;
+    padding-top: 40px;
+    padding-bottom: 20px;  
 }
 
 nav ul li:hover {
