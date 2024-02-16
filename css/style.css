@@ -83,6 +83,7 @@ header {
     display: flex;
     width: 60px;
     height: 20px;
+    padding-top: 5px;
 }
 
 nav {
@@ -98,11 +99,12 @@ nav ul {
 nav ul li {
     display: flex;
     padding: 0 20px;
+    border-top: 2px solid white;
 }
 
 nav ul li a {
-    padding-top: 40px;
-    padding-bottom: 20px;  
+    padding-top: 20px;
+    padding-bottom: 20px;   
 }
 
 nav ul li:hover {
