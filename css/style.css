@@ -155,8 +155,7 @@ nav ul li:hover {
     /* align-items: center; */
     margin-top: 25px;
     margin-bottom: 15px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    
 }
 
 .searchbar i {
@@ -178,6 +177,9 @@ nav ul li:hover {
     margin: 0;
     padding: 15px 20px;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
     
 }
 
@@ -189,13 +191,17 @@ nav ul li:hover {
     padding: 15px 20px;
     border: none;
     margin-left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /****** filters *************/
 .filters {
-    /* display: flex; */
+    display: flex; 
     margin: 0;
     padding: 0;
+    border: solid 2px green;
 
 }
 
@@ -204,15 +210,27 @@ nav ul li:hover {
     /* justify-content: space-between; */
     /* align-items: center; */
     flex-direction: row;
+    /* justify-content: space-between; */
+    border: solid 2px greenyellow;
+  
 }
 
 .filter-type {
     background-color:white;
     border-radius: 40px;
-    padding: 5px 20px;
-    border: solid 1px var(--main-color);
+    padding: 5px 5px;
+    border: solid 2px var(--main-bg-color);
+    justify-content: space-around;
+    margin: 5px;
     /* display: flex; */
 	/* align-items: center; */
+}
+
+ .filters button i {
+    border: solid 2px purple;
+    justify-content: space-between;
+    /* margin:3px; */
+    /* padding: auto; */
 }
 
 .filter-type:hover {
