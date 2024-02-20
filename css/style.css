@@ -19,6 +19,10 @@ body {
     /* par défaut, la balise “body” comporte des marges */
     margin: 0;
     padding: 0;
+
+    /*footer fixe en bas de page*/
+    /* height: 100%;
+    position: relative; */
 }
 
 .main-container {
@@ -67,6 +71,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 #logo nav{
@@ -90,13 +95,13 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+header nav ul li {
     display: flex;
     padding: 0 20px;
     border-top: 4px solid white;
 }
 
-nav ul li a {
+header nav ul li a {
     padding-top: 20px;
     padding-bottom: 20px;   
 }
@@ -107,6 +112,9 @@ nav ul li:hover {
 }
 
 /****** Infos *********************************/
+.infos {
+    /* position: relative; */
+}
 .infos-title {
     margin: 30px 0 30px 0;
 }
@@ -202,7 +210,7 @@ nav ul li:hover {
     border: solid 2px purple;
 } */
 .button {
-	margin: 20px 0px;
+	/* margin: 20px 0px; */
 	box-sizing: border-box;
     width: 150px;
     height: 50px;
@@ -221,7 +229,7 @@ button .filter-type .button i {
 .filter-type {
     background-color:white;
     border-radius: 40px;
-    padding: 0 5px;
+    /* padding: 0 5px; */
     border: solid 3px var(--main-bg-color);
     justify-content: space-around;
     margin: 9px;
@@ -259,6 +267,7 @@ button .filter-type .button i {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    /* position: relative; */
 }
 
 .hebergements-and-populaires section {
@@ -273,6 +282,7 @@ button .filter-type .button i {
     width: 65%;
     box-sizing: border-box;
     justify-content: space-between;
+    /* position: relative; */
     /* border: solid 4px green; */
 }
 
@@ -363,6 +373,7 @@ button .filter-type .button i {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    /* position: relative; */
 }
 
 .populaires-title {
@@ -415,6 +426,12 @@ button .filter-type .button i {
     
     padding: 30px;
     box-sizing: border-box;
+
+    /* position: relative;
+    padding-bottom: 150px; */
+
+
+    /* margin-bottom: 33px; */
 }
 
 .activities-title {
@@ -451,7 +468,7 @@ button .filter-type .button i {
     /* margin: 33px 0 15px 0; */
     background-color: white;
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 33px;
     /* padding: 5px; */
     /* justify-content: center; */
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
@@ -480,8 +497,6 @@ button .filter-type .button i {
     /* justify-content: center; */
     /* padding-left: 25px; */
     justify-content: center;
-
-   
     box-sizing: border-box;
     /* border: solid 5px rgb(0, 255, 85); */
 
@@ -498,48 +513,46 @@ button .filter-type .button i {
 /****** Footer *********************************/
 footer {
     background-color: var(--main-bg-color);
-
-    /* margin-bottom: -100px;
-    max-height: 192px; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
 
-    /* align-items: center; */
     /* border: solid 5px rgb(255, 115, 0); */
 
 }
 .section-footer {
     display: flex;
-
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    width: 33%;
-
+    flex-direction: column; 
+    width: 263px;
+    box-sizing: border-box;
+    padding-left: 20px;
+  
     /* border: solid 5px rgb(208, 0, 255); */
 }
 
 .footer-title {
     width: 100%;
+    box-sizing: border-box;
     /* border: solid 5px rgb(0, 0, 255); */
 }
 
-.footer-list ul {
+nav.footer-list ul {
     list-style: none;
-    /* padding-left: 0; */
-    padding: 0;
+    flex-direction: column;
     /* border: solid 5px rgb(217, 255, 0); */
 }
 
-.footer-list ul li {
+nav.footer-list ul li {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    padding-left: 0;
     /* border: solid 4px rgb(0, 195, 255); */
 }
 
-.footer-list ul li a {
+nav.footer-list ul li a {
+    margin: 0;
+    padding: 0;
     /* border: solid 3px rgb(255, 0, 179); */
 }
 
