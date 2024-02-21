@@ -71,7 +71,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 #logo nav{
@@ -308,9 +307,9 @@ button .filter-type .button i {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    width: 243px;
+    width: 250.33px;
     /* width: 235px; */
-    height: 220px;
+    height: 207.25px;
     margin: 33px 0 15px 0;
     /* margin-top: 33px;
     margin-bottom: 15px; */
@@ -461,9 +460,11 @@ button .filter-type .button i {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    width: 234px;
+    width: 297.5px;
     /* width: 235px; */
-    height: 340px;
+
+    height: 439px;
+    /* height: 340px; */
     /* gap: 10px; */
     /* margin: 33px 0 15px 0; */
     background-color: white;
@@ -479,7 +480,7 @@ button .filter-type .button i {
 
 .activities-cards img {
     width: 100%;
-    height: 280px;
+    height: 380px;
     /* padding: 0; */
     /* padding: 0 0 5px 0; */
     border-radius: 20px 20px 0 0;
@@ -491,12 +492,11 @@ button .filter-type .button i {
 
 .activities-cards .card-content {
     width: 100%;
-    /* padding-left: 15px; */
+    padding-left: 15px;
     display: flex;
     /* flex-direction: column; */
     /* justify-content: center; */
     /* padding-left: 25px; */
-    justify-content: center;
     box-sizing: border-box;
     /* border: solid 5px rgb(0, 255, 85); */
 
