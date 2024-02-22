@@ -18,10 +18,12 @@
     <div class="main-container">
 
 <!--------------Header = logo + nav + lien ancre ------------->        
-        <header class="menu">
+        <header>
+            <!-- logo -->
             <div id="logo">
                 <img src="./images/logo/Booki.png" alt="logo de Booki">
             </div>
+            <!-- menu -->
             <nav>
                 <ul>
                     <li><a href="#hebergements">Hébergements</a></li>
@@ -33,14 +35,15 @@
 <!--------------Main = infos + hébergements + populaires + activités ------------->  
         <main>
 
-        <!--------------Infos = texte + barre de recherche + filtres (boutons) --->  
+        <!--------------Info group ------------->  
             <section class="infos">
+                <!-- headline -->
                 <div class="infos-title">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
             
-                <!--Searchbar-->
+                <!-- search-bar -->
                 <div class="searchbar">
                     <form method="get" action=" ">
                         <label for="search">
@@ -53,7 +56,7 @@
                     </form>
                 </div>
 
-                 <!--Filters-->
+                <!-- filter-bar -->
                 <div class="filters">
                     <h2 class="section-title">Filtres</h2>
                     <div class="filters-list">
@@ -62,7 +65,7 @@
                             <p class="card-title">&Eacuteconomique</p>
                         </button>
                         <button type="button" class="filter-type button">
-  <!--icone x2 = "fa-2x"--> <i class="fa-solid fa-child fa-lg" aria-hidden="true"></i>
+                            <i class="fa-solid fa-child fa-lg" aria-hidden="true"></i>
                             <p class="card-title">Famille</p>
                         </button>
                         <button type="button" class="filter-type button">
@@ -77,20 +80,24 @@
                     </div>
                 </div>
 
+                <!-- infobar -->
                 <div class="informations">
                     <i class="fas fa-info fa-xs" aria-hidden="true"></i>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
+
         <!--------------Hébergements + populaires --------------------------------> 
             <div class="hebergements-and-populaires">
                 
                 <!--------------Hébergements ------------------------------------->  
                 <section class="hebergements">
+                    <!-- title -->
                     <div class="hebergement-title">
                         <h2 id="hebergements" class="section-title">Hébergements à Marseille</h2>
                     </div>
 
+                    <!-- cards -->
                     <div class="hebergements-cards">
                         <a href="#">
                             <article class="card">
@@ -285,11 +292,12 @@
             
             <!--------------Activités = photos + noms --------------------------->  
             <section class="activities">
-                
+                <!-- title -->
                 <div class="activities-title">
                     <h2 class="section-title" id="activities">Activités à Marseille</h2>
                 </div>
 
+                <!-- cards -->
                 <div class="activities-cards">
                     <a href="#">
                         <article class="card-activity">
@@ -338,6 +346,8 @@
 
 <!--------------------------Footer ---------------------------------------------->  
         <footer>
+
+            <!-- "A propos" ("Rubrique") -->
             <section class="section-footer">
                 <div class="footer-title">
                     <h3 class="card-title">&Agrave propos</h3>
@@ -350,6 +360,8 @@
                     </ul>
                 </nav>
             </section>
+
+            <!-- "Nos hébergements" -->
             <section class="section-footer">
                 <div class="footer-title">
                     <h3 class="card-title">Nos hébergements</h3>
@@ -361,6 +373,8 @@
                     </ul>
                 </nav>
             </section>
+
+            <!-- "Assistance" -->
             <section class="section-footer">
                 <div class="footer-title">
                     <h3 class="card-title">Assistance</h3>
