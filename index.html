@@ -42,20 +42,21 @@
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-            
+                
                 <!-- search-bar -->
                 <div class="searchbar">
                     <form method="get" action=" ">
                         <i class="fa-solid fa-location-dot" id="localisation" aria-hidden="true"></i>
+                        <!--pas d'attribut placeholder (zone de recherche) mais value (résultat de la recherche)"-->    
                         <input type="search" name="localisation"
-                             class="search card-title" placeholder="Marseille, France" size="15" maxlength="50">
-                        <button type="button" class="searchButton card-title">Rechercher</button>
+                             class="search" value="Marseille, France" size="15" maxlength="50">
+                        <button type="button" id="searchButton">Rechercher</button>
                         <!--bouton apparaissant que sur "mobile"-->    
-                        <i class="fa-solid fa-magnifying-glass" id="searchButtonMobile"></i>
+                        <i class="fa-solid fa-magnifying-glass" id="searchButtonMobile" aria-hidden="true"></i>
                     </form>
                 </div>
 
-                <!-- filter-bar -->
+                <!-- filterBar -->
                 <div class="filters">
                     <h2 class="section-title">Filtres</h2>
                     <div class="filters-list">
@@ -65,7 +66,7 @@
                         </button>
                         <button type="button" class="filter-type button">
                             <i class="fa-solid fa-child fa-lg" aria-hidden="true" id="family"></i>
-                            <p class="card-title">Famille</p>
+                            <p class="card-title">Familial</p>
                         </button>
                         <button type="button" class="filter-type button">
                             <i class="fa-solid fa-heart" aria-hidden="true"></i>
