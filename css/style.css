@@ -196,7 +196,7 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* height: 50px; */
+  height: 50px;
 }
 
 /* .filters i {
@@ -468,9 +468,9 @@ header nav ul li a:hover {
 }
 
 .activities-cards .card-title {
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis;
     overflow: hidden; 
-    white-space: nowrap;
+    white-space: nowrap; */
     padding-left: 19px;
     /* padding: 20px 19px 20px 19px; */
 }
@@ -521,10 +521,17 @@ footer nav.footer-list ul li {
     flex-direction: column;
     align-items: flex-start;
   }
+  .filter-type {
+    width: 161px;
+  }
 
   .filters h2 {
     justify-content: flex-start;
-    padding-left: 6px;
+    /* padding-left: 6px; */
+  }
+
+  .filters-list button span {
+    font-size: 16px;
   }
 
   /**** Hebergements And Populaires ****/
@@ -532,28 +539,30 @@ footer nav.footer-list ul li {
     flex-direction: column;
   }
 
+  /*** Hebergements **/  
   .hebergements {
     width: 100%;
   }
 
-  .hebergement-title {
+  /* .hebergement-title {
     margin-bottom: 0;
-  }
+  } */
 
   .hebergements-cards {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
     justify-content: space-between;
   }
 
-  .hebergements-cards #cannebiere {
-    border: 3px solid red;
+  .hebergements-cards .card-title {
+    font-size: 16px;
   }
 
-  .hebergements-cards a {
-    width: 30%;
+  .hebergements-cards .card-subtitle {
+    font-size: 14px;
   }
 
+  /*** Populaires **/
   .populaires {
     width: 100%;
     margin-top: 50px;
@@ -568,9 +577,7 @@ footer nav.footer-list ul li {
   .populaires-cards a {
     width: 30%;
   }
-.populaires-cards img {
-    border: 3px solid red;
-  }
+
   .populaires-cards .card-title {
     font-size: 14px;
   }
@@ -582,15 +589,13 @@ footer nav.footer-list ul li {
   /**** Activités ****/
   .activities article.card-activity {
     height: 270px;
-    width: 145px;
+    width: 193.5px;
+    /* height: 270px;
+    width: 145px; */
   }
 
   .activities-cards img {
     height: 200px;
-  }
-
-  .activities-cards .card-content {
-    padding-left: 8px;
   }
 }
 
