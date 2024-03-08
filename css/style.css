@@ -116,8 +116,8 @@ header nav ul li a:hover {
 
 .infos-title h1 {
   margin-bottom: 0;
-  padding-bottom: 0.556vw;
-  /* padding-bottom: 8px; */
+  /* padding-bottom: 0.556vw; */
+  padding-bottom: 8px;
 }
 
 .infos-title p {
@@ -264,6 +264,7 @@ header nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .informations p {
@@ -636,6 +637,7 @@ footer nav.footer-list ul li {
   /**** Info group ****/
   .infos-title {
     padding-left: 6.25vw;
+    padding-right: 6.25vw;
   }
 
   /*** search-bar ***/
@@ -646,8 +648,8 @@ footer nav.footer-list ul li {
   }
   .searchbar {
     justify-content: center;
-    padding-top: 2.604vw;
-    padding-bottom: 2.604vw;
+    padding-top: 5.604vw;
+    padding-bottom: 5.604vw;
   }
 
   #searchButton {
@@ -681,7 +683,7 @@ footer nav.footer-list ul li {
 
   .filters-list {
     justify-content: center;
-    gap: 2.302vw;
+    gap: 3.302vw;
     width: 100%;
     align-items: flex-start;
   }
@@ -697,7 +699,8 @@ footer nav.footer-list ul li {
 
   .informations {
     margin: 0;
-    padding-top: 0.667vw;
+    padding-top: 5.667vw;
+    padding-bottom: 5.667vw;
   }
 
   .informations i {
@@ -773,7 +776,8 @@ footer nav.footer-list ul li {
     font-size: 14px;
   }
 
-  .hebergements .show-more a {
+  .hebergements .show-more {
+    padding-top: 2vw;
     padding-left: 1vw;
   }
 
@@ -802,7 +806,6 @@ footer nav.footer-list ul li {
     padding: 1.302vw 0.651vw 0 1.953vw;
     /* padding: 10px 5px 0 15px; */
     gap: 3.125vw;
-    /* gap: 24px; */
   }
 
   .populaires-cards .card-title {
@@ -817,8 +820,8 @@ footer nav.footer-list ul li {
 
   /**** Activités ****/
   .activities {
-    padding-top: 5vw;
-    padding-bottom: 10vw;
+    padding-top: 10vw;
+    padding-bottom: 16vw;
   }
   .activities-title {
     display: flex;
