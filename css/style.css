@@ -20,6 +20,7 @@ body {
   justify-content: center;
   /* par défaut, la balise “body” comporte des marges */
   margin: 0;
+  
 }
 
 .main-container {
@@ -184,7 +185,7 @@ header nav ul li a:hover {
 /** filterBar **/
 .filters {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   box-sizing: border-box;
   padding-top: 2.083vw;
   /* padding-top: 30px; */
@@ -200,8 +201,10 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
-  height: 50px;
+  /* justify-content: space-around; */
+  width: 100%;
+  /* gap: 2vw; */
+  /* height: 50px; */
 }
 
 .filters-list button span {
@@ -229,8 +232,10 @@ header nav ul li a:hover {
   background-color: var(--white-color);
   margin-right: 1.042vw;
   /* margin-right: 15px; */
-
-  width: 173px;
+  width: 18%;
+  /* width: 22%; */
+    /* width: 47%; */
+  /* width: 173px; */
   /* width: 12.014vw; */
 
   border-radius: 25px;
@@ -487,15 +492,6 @@ footer nav.footer-list ul li {
 }
 
 /****** Media queries ***********/
-@media (max-width: 1900px) and (min-width: 1440px) {
-  .hebergements-cards {
-    justify-content: space-between;
-    gap: 0.083vw;
-  }
-  .hebergements-cards .cards {
-    width: 100%;
-  }
-}
 
 /****** Medium devices (tablets, less/equal than 1024px) *****/
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -553,7 +549,8 @@ footer nav.footer-list ul li {
   }
 
   .populaires-cards a {
-    width: 30%;
+    /* width: 30%; */
+    width: 100%;
   }
 
   .populaires-cards .card-title {
@@ -584,7 +581,8 @@ footer nav.footer-list ul li {
 
   .activities .card-content {
     /* padding: 0 0 20px 0; */
-    padding: 0 0 1.953vw 0;
+    /* padding: 0 0 1.953vw 0; */
+    border: 3px solid red;
   }
 }
 
@@ -608,7 +606,7 @@ footer nav.footer-list ul li {
     width: 100%;
   }
 
-  header nav ul:hover {
+  header nav li:hover {
     color: var(--main-color);
   }
 
@@ -616,7 +614,9 @@ footer nav.footer-list ul li {
     width: 50%;
     justify-content: center;
     border-top: none;
+    
     border-bottom: 2px solid transparent;
+    text-align: center;
   }
 
   header nav ul li:hover {
@@ -626,8 +626,11 @@ footer nav.footer-list ul li {
   header nav ul li a {
     border-bottom: 2px solid transparent;
     border-top: none;
-    padding-bottom: 1.953vw;
-    /* padding-bottom: 15px; */
+    /* padding-bottom: 1.953vw; */
+    padding-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+   
   }
 
   header nav ul li a:hover {
@@ -664,8 +667,8 @@ footer nav.footer-list ul li {
   .filters {
     flex-direction: column;
     align-items: flex-start;
-    box-sizing: border-box;
-    height: 42.807vw;
+    /* box-sizing: border-box; */
+    /* height: 42.807vw; */
   }
 
   .filters h2 {
@@ -674,7 +677,7 @@ footer nav.footer-list ul li {
   }
 
   .button {
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .filter-type i {
@@ -683,9 +686,10 @@ footer nav.footer-list ul li {
 
   .filters-list {
     justify-content: center;
-    gap: 3.302vw;
-    width: 100%;
-    align-items: flex-start;
+    gap: 1.302vw;
+    width: 97%;
+    padding-left: 2vw;
+    /* align-items: flex-start; */
   }
 
   .filters-list button span {
@@ -693,14 +697,15 @@ footer nav.footer-list ul li {
   }
 
   .filter-type {
-    width: 162.5px;
+    /* width: 162.5px; */
+    width: 48%;
     margin-bottom: 1.302vw;
   }
 
   .informations {
     margin: 0;
-    padding-top: 5.667vw;
-    padding-bottom: 5.667vw;
+    padding-top: 3.667vw;
+    padding-bottom: 3.667vw;
   }
 
   .informations i {
@@ -746,7 +751,7 @@ footer nav.footer-list ul li {
   .hebergements-cards .card {
     width: 100%;
     margin-top: 0;
-    height: 207.25px;
+    /* height: 207.25px; */
   }
 
   .hebergements-cards img {
@@ -879,14 +884,3 @@ footer nav.footer-list ul li {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .searchbar {
-    justify-content: flex-start;
-    padding: 2.188vw;
-    /* padding: 7px; */
-  }
-
-  .filters {
-    height: 83.933vw;
-  }
-}
