@@ -75,7 +75,6 @@ header {
 #logo img {
   width: 61.09px;
   height: 19px;
-  /* padding: 2.083vw 0 2.083vw 0; */
   padding: 30px 0 30px 0;
 }
 
@@ -83,7 +82,6 @@ header {
 header nav ul {
   display: flex;
   gap: 4.722vw;
-  /* gap:68px;  */
   margin: 0;
   padding: 0;
 }
@@ -94,8 +92,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  padding-top: 0.694vw;
-  /* padding-top: 10px; */
+  padding-top: 1.042vw;
   border-top: 2px solid var(--white-color);
 }
 
@@ -107,17 +104,9 @@ header nav ul li a:hover {
 /****** Info group *********************************/
 
 /** headline **/
-.infos {
-  box-sizing: border-box;
-}
-
-.infos-title {
-  box-sizing: border-box;
-}
 
 .infos-title h1 {
   margin-bottom: 0;
-  /* padding-bottom: 0.556vw; */
   padding-bottom: 8px;
 }
 
@@ -129,7 +118,6 @@ header nav ul li a:hover {
 .searchbar {
   display: flex;
   padding-top: 2.083vw;
-  /* padding-top: 30px; */
   box-sizing: border-box;
 }
 
@@ -184,16 +172,12 @@ header nav ul li a:hover {
 
 /** filterBar **/
 .filters {
-  display: flex;
-  /* align-items: center; */
   box-sizing: border-box;
   padding-top: 2.083vw;
-  /* padding-top: 30px; */
 }
 
 .filters h2 {
   margin-right: 1.042vw;
-  /* margin-right: 15px; */
   font-size: 18px;
 }
 
@@ -201,16 +185,12 @@ header nav ul li a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
   width: 100%;
-  /* gap: 2vw; */
-  /* height: 50px; */
 }
 
 .filters-list button span {
   font-size: 17px;
   padding-left: 0.694vw;
-  /* padding-left: 10px; */
 }
 
 .button {
@@ -221,7 +201,6 @@ header nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .filter-type i {
@@ -230,13 +209,13 @@ header nav ul li a:hover {
 
 .filter-type {
   background-color: var(--white-color);
+  justify-content: flex-start;
+
+  width: 14%;
+  width: 173px;
+
   margin-right: 1.042vw;
-  /* margin-right: 15px; */
-  width: 18%;
-  /* width: 22%; */
-    /* width: 47%; */
-  /* width: 173px; */
-  /* width: 12.014vw; */
+  gap: 0.6vw;
 
   border-radius: 25px;
   border: solid 2px var(--main-bg-color);
@@ -253,9 +232,7 @@ header nav ul li a:hover {
   box-sizing: border-box;
 
   padding-top: 2.083vw;
-  /* padding-top: 30px; */
   margin-bottom: 2.292vw;
-  /* margin-bottom: 33px; */
 }
 
 .informations i {
@@ -274,7 +251,6 @@ header nav ul li a:hover {
 
 .informations p {
   padding-left: 0.694vw;
-  /* padding-left: 10px; */
 }
 
 /****** Hebergements And Populaires ***********/
@@ -284,10 +260,8 @@ header nav ul li a:hover {
 }
 
 .hebergements-and-populaires section {
-  /* background-color: var(--main-bg-color); */
   border-radius: 20px;
   padding: 2.083vw;
-  /* padding: 30px; */
   box-sizing: border-box;
 }
 
@@ -303,7 +277,6 @@ header nav ul li a:hover {
   display: flex;
   align-items: center;
   padding-bottom: 2.083vw;
-  /* padding-bottom: 30px; */
 }
 
 /** cards "Hébergements" **/
@@ -321,7 +294,6 @@ header nav ul li a:hover {
 
 .hebergements-cards .card {
   margin-bottom: 2.083vw;
-  /* margin-bottom: 30px; */
 }
 
 .hebergements-cards img {
@@ -343,12 +315,10 @@ header nav ul li a:hover {
   overflow: hidden;
   white-space: nowrap;
   margin: 0.556vw 0 0.556vw 1.042svw;
-  /* margin: 8px 0 8px 15px; */
 }
 
 .hebergements-cards .card-rating {
   padding-left: 1.042vw;
-  /* padding-left: 15px; */
 }
 
 .hebergements .show-more a {
@@ -370,7 +340,6 @@ header nav ul li a:hover {
 .populaires-cards .card {
   display: flex;
   margin-top: 2.292vw;
-  /* margin-top: 33px; */
 }
 
 .populaires-cards img {
@@ -383,7 +352,6 @@ header nav ul li a:hover {
 .populaires-cards .card-content {
   width: 67%;
   padding-left: 1.042vw;
-  /* padding-left: 15px; */
 
   display: flex;
   flex-direction: column;
@@ -393,9 +361,7 @@ header nav ul li a:hover {
 
 .populaires-cards .card-title {
   margin-top: 0.694vw;
-  /* margin-top: 10px; */
   margin-bottom: 0.278vw;
-  /* margin-bottom: 4px; */
 }
 
 .populaires-cards .card-subtitle {
@@ -404,7 +370,6 @@ header nav ul li a:hover {
 
 .populaires-cards .card-rating {
   margin-bottom: 0.347vw;
-  /* margin-bottom: 5px; */
 }
 
 /****** Activités ******************************/
@@ -413,7 +378,6 @@ header nav ul li a:hover {
   justify-content: space-between;
   box-sizing: border-box;
   padding: 2.292vw 2.083vw 2.292vw 2.083vw;
-  /* padding: 33px 30px 33px 30px; */
 }
 
 /** title **/
@@ -422,7 +386,6 @@ header nav ul li a:hover {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2.083vw;
-  /* padding-bottom: 30px; */
 }
 
 /** cards "Activités" **/
@@ -443,13 +406,11 @@ header nav ul li a:hover {
 
   width: 100%;
   height: 439px;
+  margin-bottom: 2.292vw;
 
   background-color: var(--white-color);
   border-radius: 20px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-
-  /* margin-bottom: 33px; */
-  margin-bottom: 2.292vw;
 }
 
 .activities-cards img {
@@ -460,8 +421,13 @@ header nav ul li a:hover {
 }
 
 .activities-cards .card-title {
-  padding-left: 1.319vw;
-  /* padding-left: 19px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+
+    padding: 0 19px 20px 19px;
+    height: 20px;
 }
 
 /****** Footer *********************************/
@@ -476,7 +442,6 @@ footer {
   flex-direction: column;
   box-sizing: border-box;
   padding: 0 0 0 1.389vw;
-  /* padding: 0 0 0 20px; */
   width: 30%;
 }
 
@@ -487,7 +452,6 @@ footer nav.footer-list ul {
 footer nav.footer-list ul li {
   display: flex;
   justify-content: space-between;
-  /* padding: 0 0 1.042vw 0; */
   padding: 0 0 15px 0;
 }
 
@@ -501,12 +465,12 @@ footer nav.footer-list ul li {
     flex-direction: column;
     align-items: flex-start;
   }
-  .filter-type {
-    width: 161px;
-  }
-
+ 
   .filters h2 {
     justify-content: flex-start;
+  }
+  .filter-type {
+    margin-right: 0.8vw;
   }
 
   .filters-list button span {
@@ -539,17 +503,16 @@ footer nav.footer-list ul li {
   .populaires {
     width: 100%;
     margin-top: 4.883vw;
-    /* margin-top: 50px; */
   }
 
   .populaires-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 1.7vw;
   }
 
   .populaires-cards a {
-    /* width: 30%; */
     width: 100%;
   }
 
@@ -563,16 +526,14 @@ footer nav.footer-list ul li {
 
   /**** Activités ****/
   .activities-cards {
-    gap: 12.5vw;
+    gap: 2vw;
   }
   .activities-cards a {
-    width: 12%;
+    width: 23%; 
   }
 
   .activities article.card-activity {
     height: 270px;
-    /* height: 26.367vw; */
-    width: 193.5px;
   }
 
   .activities-cards img {
@@ -580,9 +541,7 @@ footer nav.footer-list ul li {
   }
 
   .activities .card-content {
-    /* padding: 0 0 20px 0; */
-    /* padding: 0 0 1.953vw 0; */
-    border: 3px solid red;
+    width: 98%;
   }
 }
 
@@ -598,7 +557,6 @@ footer nav.footer-list ul li {
   header {
     flex-direction: column;
     align-items: center;
-    /* box-sizing: border-box; */
   }
 
   /** menu **/
@@ -626,11 +584,10 @@ footer nav.footer-list ul li {
   header nav ul li a {
     border-bottom: 2px solid transparent;
     border-top: none;
-    /* padding-bottom: 1.953vw; */
-    padding-bottom: 15px;
     display: inline-block;
+
+    padding-bottom: 15px;
     width: 100%;
-   
   }
 
   header nav ul li a:hover {
@@ -667,8 +624,6 @@ footer nav.footer-list ul li {
   .filters {
     flex-direction: column;
     align-items: flex-start;
-    /* box-sizing: border-box; */
-    /* height: 42.807vw; */
   }
 
   .filters h2 {
@@ -676,12 +631,8 @@ footer nav.footer-list ul li {
     padding-left: 5.25vw;
   }
 
-  .button {
-    justify-content: center;
-  }
-
   .filter-type i {
-    margin: 0 1.3vw 0 1.3vw;
+    margin-right: 2vw;
   }
 
   .filters-list {
@@ -689,7 +640,6 @@ footer nav.footer-list ul li {
     gap: 1.302vw;
     width: 97%;
     padding-left: 2vw;
-    /* align-items: flex-start; */
   }
 
   .filters-list button span {
@@ -697,20 +647,23 @@ footer nav.footer-list ul li {
   }
 
   .filter-type {
-    /* width: 162.5px; */
     width: 48%;
     margin-bottom: 1.302vw;
   }
 
   .informations {
     margin: 0;
-    padding-top: 3.667vw;
-    padding-bottom: 3.667vw;
+    padding-bottom: 1.667vw;
   }
 
   .informations i {
     margin-left: 6.25vw;
     margin-right: 3.25vw;
+  }
+
+  .informations p {
+    width: 87%;
+    padding-right: 2vw;
   }
 
   /**** Hebergements And Populaires ****/
@@ -721,7 +674,6 @@ footer nav.footer-list ul li {
 
   .hebergements-and-populaires section {
     border-radius: 0;
-    /* padding: 3.516vw 1.953vw 3.255vw 1.302vw; */
     padding: 27px 20px 25px 20px;
   }
 
@@ -733,7 +685,6 @@ footer nav.footer-list ul li {
 
   .hebergement-title {
     padding: 1.042vw 0 2.953vw 1.651vw;
-    /* padding: 8px 0 25px 12px; */
   }
 
   .hebergements-cards {
@@ -751,7 +702,6 @@ footer nav.footer-list ul li {
   .hebergements-cards .card {
     width: 100%;
     margin-top: 0;
-    /* height: 207.25px; */
   }
 
   .hebergements-cards img {
@@ -766,15 +716,14 @@ footer nav.footer-list ul li {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 0 1.953vw 0 1.953vw;
-    /* padding: 0 15px 0 15px; */
+
+    padding: 0 1.953vw 0 3.953vw;
     gap: 2vw;
   }
 
   .hebergements-cards .card-title {
     font-size: 16px;
     padding-bottom: 1.953vw;
-    /* padding-bottom: 8px; */
   }
 
   .hebergements-cards .card-subtitle {
@@ -792,13 +741,11 @@ footer nav.footer-list ul li {
   }
 
   .populaires-title {
-    padding-bottom: 1.302vw;
-    /* padding-bottom: 10px; */
+    padding-bottom: 3.302vw;
   }
 
   .populaires-title .fa-chart-line {
     margin-right: 0.911vw;
-    /* margin-right: 7px; */
   }
 
   .populaires-cards {
@@ -808,15 +755,13 @@ footer nav.footer-list ul li {
   }
 
   .populaires-cards .card-content {
-    padding: 1.302vw 0.651vw 0 1.953vw;
-    /* padding: 10px 5px 0 15px; */
+    padding: 0.302vw 0.651vw 0 1.953vw;
     gap: 3.125vw;
   }
 
   .populaires-cards .card-title {
     font-size: 16px;
     padding-bottom: 0.651vw;
-    /* padding-bottom: 5px; */
   }
 
   .populaires-cards .card-subtitle {
@@ -883,4 +828,3 @@ footer nav.footer-list ul li {
     font-size: 16px;
   }
 }
-
