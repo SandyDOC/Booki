@@ -20,14 +20,12 @@ body {
   justify-content: center;
   /* par défaut, la balise “body” comporte des marges */
   margin: 0;
-  
 }
 
 .main-container {
   width: 100%;
   max-width: 1440px;
   padding: 0 3.472vw;
-  /* padding: 0 50px; */
   box-sizing: border-box;
 }
 
@@ -172,6 +170,7 @@ header nav ul li a:hover {
 
 /** filterBar **/
 .filters {
+  display: flex;
   box-sizing: border-box;
   padding-top: 2.083vw;
 }
@@ -190,7 +189,6 @@ header nav ul li a:hover {
 
 .filters-list button span {
   font-size: 17px;
-  padding-left: 0.694vw;
 }
 
 .button {
@@ -421,13 +419,13 @@ header nav ul li a:hover {
 }
 
 .activities-cards .card-title {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
 
-    padding: 0 19px 20px 19px;
-    height: 20px;
+  padding: 0 19px 20px 19px;
+  height: 20px;
 }
 
 /****** Footer *********************************/
@@ -465,7 +463,7 @@ footer nav.footer-list ul li {
     flex-direction: column;
     align-items: flex-start;
   }
- 
+
   .filters h2 {
     justify-content: flex-start;
   }
@@ -529,7 +527,7 @@ footer nav.footer-list ul li {
     gap: 2vw;
   }
   .activities-cards a {
-    width: 23%; 
+    width: 23%;
   }
 
   .activities article.card-activity {
@@ -572,7 +570,7 @@ footer nav.footer-list ul li {
     width: 50%;
     justify-content: center;
     border-top: none;
-    
+
     border-bottom: 2px solid transparent;
     text-align: center;
   }
