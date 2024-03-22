@@ -139,6 +139,11 @@ header nav ul li a:hover {
   font-size: 18px;
 }
 
+input::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
 #searchButton {
   background-color: var(--main-color);
   color: var(--white-color);
@@ -456,7 +461,7 @@ footer nav.footer-list ul li {
 /****** Media queries ***********/
 
 /****** Medium devices (tablets, less/equal than 1024px) *****/
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1024px) {
   /*** Info group \ filter-bar ***/
   .filters {
     display: flex;
@@ -544,7 +549,7 @@ footer nav.footer-list ul li {
 }
 
 /******* Small devices (phones, less than 768px) ******/
-@media screen and (max-width: 768px) and (min-width: 320px) {
+@media screen and (max-width: 768px) {
   .main-container {
     padding: 0;
     width: 100%;
